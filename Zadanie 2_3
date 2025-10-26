@@ -1,0 +1,25 @@
+1) Próba połaczenia na uczelin nie daje efektów, nie wyświetlane sa zmiany w wyswietlanych połaczeniach, po czyszczeniu poleceniem flushdns, oraz odwiedzeniu kilku róznych stron w dalszym ciągu nie dochodzi odo żadnych zmian.
+Test pozostawiony do powtórki w sieci lokalnej domowej.
+
+
+2)  ** Czym jest pamięć podręczna DNS?
+Pamięć podręczna DNS (ang. DNS cache) to lokalne, tymczasowe miejsce przechowywania informacji o adresach IP odwiedzanych stron internetowych.
+Jej głównym celem jest przyspieszenie procesu ładowania stron i zmniejszenie obciążenia serwerów DNS.
+
+    ** Dlaczego komputer przechowuje odwiedzone adresy?
+Komputer przechowuje odwiedzone adresy (np. w pamięci podręcznej DNS lub historii przeglądarki), aby przyspieszyć działanie i poprawić wygodę użytkownika.
+        # Szybsze ładowanie stron
+          Gdy odwiedzasz stronę, komputer zapisuje jej adres IP w pamięci podręcznej DNS.
+          Przy kolejnej wizycie nie musi pytać serwera DNS o IP – oszczędza czas i przyspiesza połączenie.
+        # Efektywne ponowne użycie danych
+          Przeglądarki zapisują odwiedzone adresy w historii, by umożliwić szybki powrót do wcześniej odwiedzonych stron.
+          Ułatwia to np. autouzupełnianie adresów URL, wyszukiwanie w historii, czy przywracanie kart.
+        # Zmniejszenie ruchu sieciowego
+          Dzięki lokalnemu przechowywaniu adresów, komputer nie musi za każdym razem kontaktować się z zewnętrznymi serwerami DNS.
+          To zmniejsza obciążenie sieci i poprawia wydajność.
+        # Bezpieczeństwo i kontrola
+          Systemy zabezpieczeń mogą analizować historię odwiedzanych adresów, by wykrywać podejrzane aktywności.
+          Administratorzy sieci mogą monitorować lub ograniczać dostęp do określonych stron.
+        # Personalizacja i wygoda
+          Historia odwiedzin pozwala na personalizację wyników wyszukiwania, rekomendacji i reklam.
+          Ułatwia też synchronizację między urządzeniami (np. w przeglądarkach z kontem użytkownika).
