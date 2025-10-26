@@ -1,0 +1,15 @@
+Zadanie 1.
+
+Wielkość pliku: 10 GB
+Przepustowość: 1 GBit
+W jakim czasie pobierzemy plik
+
+
+1 bajt = 8 bitów 
+1GB = 10^9bajtów (w systemie dziesiętnym)
+
+Zatem:10GB=10^9 * 8 = 80*10^9 bitów
+
+Szybkość łącza: 1 Gbit/s = 10^9 bitów/sekundę
+
+Czas: (80*10^9) / (10^9) = 1 min 20 sekund
