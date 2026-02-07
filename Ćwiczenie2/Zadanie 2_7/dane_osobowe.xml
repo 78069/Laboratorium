@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane_osobowe>
+    <osoba id="1">
+        <imie>Mateusz</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <plec>m</plec>
+        <wiek>25</wiek>
+    </osoba>
+</dane_osobowe>
