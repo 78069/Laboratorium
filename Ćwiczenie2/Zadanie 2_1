@@ -12,4 +12,19 @@ Zatem:10GB=10^9 * 8 = 80*10^9 bitów
 
 Szybkość łącza: 1 Gbit/s = 10^9 bitów/sekundę
 
-Czas: (80*10^9) / (10^9) = 1 min 20 sekund
+Czas przy idealnym łączu:
+Czas: (80*10^9) / (10^9) = 80 [s]
+
+Korekta o narzut i retransmisje
+Masz w zadaniu:
+
+Narzut Ethernet/IP/TCP: „rzędu kilku procent” → przyjmijmy 5%
+
+Retransmisje: 1%
+
+Łącznie przyjmijmy ok.:
+
+Narzut całkowity ≈ 5% + 1% = 6% = 0,06
+
+Skorygowany czas:
+𝑡(rzeczywiste) = 𝑡(idealne) * (1+0,06) = 80 [s] * 1,06 = 84,8 [s]
