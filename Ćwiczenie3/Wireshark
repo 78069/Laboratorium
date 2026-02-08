@@ -1,0 +1,33 @@
+#  Czy adres MAC urządzenia źródłowego pasuje do interfejsu twojego PC?
+    > TAK
+
+#  Czy adres MAC urządzenia docelowego w programie Wireshark, pasuje do adresu MAC komputera twojego kolegi z zajęć?
+    > TAK
+
+#  W jaki sposób twój PC uzyskał MAC adres komputera kolegi?
+    > Za pomocą protokołu ARP.  
+    > Zapytanie ARP: „Kto ma 192.168.1.12?”  
+    > Odpowiedział: „192.168.1.12 ma MAC 00:11:22:33:44:55”.
+
+
+#  Przejrzyj przechwycone dane w programie Wireshark, sprawdź adresy IP i MAC trzech stron internetowych dla których wykonałeś polecenie ping. Poniżej wpisz, docelowy adres IP i MAC,
+dla wszystkich trzech stron internetowych. 
+    > Yahoo: IP: 74.6.231.20 MAC: B8:4F:12:9A:77:3C
+    > Cisco: IP:72.163.4.185 MAC: B8:4F:12:9A:77:3C
+    > Google: IP: 142.250.120.101 MAC: B8:4F:12:9A:77:3C
+
+#  Co jest istotne w tej informacji?
+    > Wszystkie adresy MAC są takie same
+    > Wireshark nie pokazuje prawdziwego MAC hostów zdalnych, tylko MAC routera
+
+#  Czym różni się to od części 1?
+    > W LAN widzisz prawdziwe MAC komputerów.
+    > W Internecie widzisz MAC routera, bo:
+         > ramki Ethernet nie są routowane,
+         > każdy router usuwa nagłówek Ethernet i tworzy nowy,
+         > więc nigdy nie zobaczysz MAC serwera Google czy Yahoo
+
+#  Dlaczego Wireshark pokazuje MAC lokalny, ale nie zdalny?
+    > Bo adres MAC działa tylko w jednej sieci lokalnej (LAN).
+    > Po wyjściu z twojej sieci pakiet IP podróżuje dalej, ale ramki Ethernet są wymieniane na nowe na każdym routerze.
+    > To fundamentalna różnica między warstwą 2 (MAC) a warstwą 3 (IP).
